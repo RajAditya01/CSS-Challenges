@@ -14,6 +14,12 @@ body {
     color: green;
 } */
 
+.box{
+    height:100vh;
+    width:100vw;
+    border:1px solid black;
+}
+
 #first, #second, #third{
     color: red;
 }

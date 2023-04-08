@@ -1,13 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
+body {
     background-color: red;
 }
-@media(width<= 400px){
-    body{
+
+/* @media (min-width: 400px) and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+} */
+
+@media (400px <= width <= 600px) {
+    body {
         background-color: green;
     }
 }
+
+/* @media (min-width: 600px) {
+    body {
+        background-color: gold;
+    }
+} */

@@ -32,7 +32,7 @@ body {
 }
 
 
-/* .loader {
+.loader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,7 +83,7 @@ body {
     100% {
         transform: translate(200px);
     }
-} */
+} 
 
 @keyframes circles {
     0%, 100% {
